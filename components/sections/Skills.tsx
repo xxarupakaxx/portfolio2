@@ -5,23 +5,23 @@ import HangingSkill from '../ui/HangingSkill';
 
 // コア技術 - よく使い慣れている技術
 const coreSkills: Array<{ name: string; icon: string; level: 'core' | 'sub' }> = [
-  { name: "TypeScript", icon: "/assets/typescript.svg", level: "core" },
+  { name: "TypeScript", icon: "/assets/TypeScript.svg", level: "core" },
   { name: "Go", icon: "/assets/golang.svg", level: "core" },
   { name: "Express", icon: "/assets/Express.svg", level: "core" },
-  { name: "React", icon: "/assets/react.svg", level: "core" },
+  { name: "React", icon: "/assets/React.svg", level: "core" },
   { name: "Google Cloud", icon: "/assets/GoogleCloud.svg", level: "core" },
 ];
 
 // その他の技術 - 経験のある技術
 const otherSkills: Array<{ name: string; icon: string; level: 'core' | 'sub' }> = [
   { name: "C#", icon: "/assets/C.svg", level: "sub" },
-  { name: "Scala", icon: "/assets/scala.svg", level: "sub" },
+  { name: "Scala", icon: "/assets/Scala.svg", level: "sub" },
   { name: "Ruby", icon: "/assets/Ruby.svg", level: "sub" },
   { name: "Node.js", icon: "/assets/Node.js.svg", level: "sub" },
   { name: "Next.js", icon: "/assets/Next.js.svg", level: "sub" },
   { name: "GraphQL", icon: "/assets/graphql.svg", level: "sub" },
-  { name: "Firebase", icon: "/assets/firebase.svg", level: "sub" },
-  { name: "Astro", icon: "/assets/astro.svg", level: "sub" },
+  { name: "Firebase", icon: "/assets/Firebase.svg", level: "sub" },
+  { name: "Astro", icon: "/assets/Astro.svg", level: "sub" },
   { name: "Unity", icon: "/assets/Unity.svg", level: "sub" },
   { name: "Unreal Engine", icon: "/assets/Unreal Engine.svg", level: "sub" },
 ];
